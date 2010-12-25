@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoboardNetMvc", "GeckoboardNetMvc\GeckoboardNetMvc.csproj", "{4F3DBBF9-CA74-4FD8-A534-1B8D86297290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoboardNet", "GeckoboardNet\GeckoboardNet.csproj", "{58DC764D-2FC0-4BF8-B217-80D9E823239D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoboardNetTests", "GeckoboardNetTests\GeckoboardNetTests.csproj", "{CD6B024C-F025-4872-ADAD-D258B0DFFEFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7D77633-9531-4400-8CBE-3E4BDE218A2F}"
+	ProjectSection(SolutionItems) = preProject
+		GeckoboardNet.vsmdi = GeckoboardNet.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GeckoboardNet.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F3DBBF9-CA74-4FD8-A534-1B8D86297290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3DBBF9-CA74-4FD8-A534-1B8D86297290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3DBBF9-CA74-4FD8-A534-1B8D86297290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3DBBF9-CA74-4FD8-A534-1B8D86297290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DC764D-2FC0-4BF8-B217-80D9E823239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DC764D-2FC0-4BF8-B217-80D9E823239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DC764D-2FC0-4BF8-B217-80D9E823239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DC764D-2FC0-4BF8-B217-80D9E823239D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6B024C-F025-4872-ADAD-D258B0DFFEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6B024C-F025-4872-ADAD-D258B0DFFEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6B024C-F025-4872-ADAD-D258B0DFFEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6B024C-F025-4872-ADAD-D258B0DFFEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
