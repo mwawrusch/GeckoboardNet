@@ -9,10 +9,9 @@ and
 http://geckoboard.martinatsunset.com/geckoboard/TestWidgetApi which requires the API key 123.
 
 To test it go to your geckoboard and add a custom widget, either chart or normal, then add the url as indicated above,
-choose Custom widget format and Json formt type and you are good ot go.
+choose Custom widget format and Json format type and you are good to go.
 
-Give the fact that the library is rather small I packaged everything into a single file, so instead of adding the whole library 
-you can just copy the GeckoboardService.cs file.
+Given the fact that the library is rather small I packaged everything into a single file, so instead of adding the whole library you can just copy the GeckoboardService.cs file.
 
 How To Use It
 
