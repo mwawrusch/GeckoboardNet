@@ -2,14 +2,7 @@ GeckoboardNet 1.0
 
 This library is intended for Asp.Net Mvc users who want to expose data to Geckoboards. It is tailored
 for Mvc use but can easily be adapted for general Asp.Net. The GeckoboardNetMvc sample shows how to use
-the library, both with an API key and without. You can find a running example at
-
-http://geckoboard.martinatsunset.com/geckoboard/TestWidget
-and 
-http://geckoboard.martinatsunset.com/geckoboard/TestWidgetApi which requires the API key 123.
-
-To test it go to your geckoboard and add a custom widget, either chart or normal, then add the url as indicated above,
-choose Custom widget format and Json format type and you are good to go.
+the library, both with an API key and without. 
 
 Given the fact that the library is rather small I packaged everything into a single file, so instead of adding the whole library you can just copy the GeckoboardService.cs file.
 
