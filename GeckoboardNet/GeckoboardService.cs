@@ -171,11 +171,9 @@ namespace GeckoboardNet
         {
             Contract.Ensures(Contract.Result<ActionResult>() != null);
 
-            if (!string.IsNullOrWhiteSpace(ApiKey))
-            {
-                if (IsValidApiKey != null && !IsValidApiKey(ApiKey))
-                    throw new HttpException(403, ErrorInvalidApiKey);
-            }
+            if (IsValidApiKey != null && !IsValidApiKey(ApiKey ?? String.Empty))
+                throw new HttpException(403, ErrorInvalidApiKey);
+
             object result = null;
 
             try
